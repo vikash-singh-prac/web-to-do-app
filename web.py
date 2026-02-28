@@ -39,5 +39,3 @@ st.text_input(label="Enter a todo.",
               placeholder="Enter a todo.",
               on_change=add_todo,
               key="new_todo")
-
-st.write(st.session_state)
